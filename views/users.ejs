@@ -1,0 +1,26 @@
+
+<%- include('layouts/header.ejs') %>
+
+        
+        <div class="grid">
+            <article class="card product-item"> 
+              
+            <% if(usersList.length > 0) { %>
+           
+                <h1 style="margin-left:15px;"> List of users </h1>
+                <ul class="card__header">
+            <% for(user of usersList){ %>
+           
+                    <li> <h3 class="product__title"><%= user.userName %></h3> </li>
+               
+            <% } %>
+        </ul>
+    
+    <% } else { %>
+        <h2 style="margin-left:15px;"> No Users found </h2>
+        <% } %>
+    </article>
+        </div>       
+    </main>   
+</body>
+</html>

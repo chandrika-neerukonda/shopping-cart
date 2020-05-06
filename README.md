@@ -1,2 +1,2 @@
 # user-list
-A shopping cart page with list of products & adding products feature by using nodejs 
+A user list page shows the list of users & adding user by using nodejs 
